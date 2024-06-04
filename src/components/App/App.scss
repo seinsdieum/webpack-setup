@@ -1,0 +1,10 @@
+@mixin root {
+  background: red;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+body {
+
+  @include root;
+}
